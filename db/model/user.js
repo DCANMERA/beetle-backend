@@ -71,7 +71,7 @@ User.init({
     type: DataTypes.STRING(4),
     allowNull: false,
     defaultValue: '保密',
-    comment: '用户性别,0女 1男 2保密'
+    comment: '用户性别,女 男 保密'
   },
 
   avatar: {

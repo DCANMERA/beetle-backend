@@ -285,17 +285,6 @@ class RoutesController {
       }
     }).then(result => {
       if (result.length > 0) {
-        switch (result[0].sex) {
-          case 1:
-            result[0].sex = '男'
-            break
-          case 0:
-            result[0].sex = '女'
-            break
-          case 2:
-            result[0].sex = '保密'
-            break
-        }
         res.send({ msg: '查询用户信息成功', status: 1040, result, url })
       } else {
         res.send({ msg: '查询用户信息失败', status: 1041, result, url })
@@ -319,17 +308,6 @@ class RoutesController {
       }
     }).then(result => {
       if (result.length > 0) {
-        switch (result[0].sex) {
-          case 1:
-            result[0].sex = '男'
-            break
-          case 0:
-            result[0].sex = '女'
-            break
-          case 2:
-            result[0].sex = '保密'
-            break
-        }
         res.send({ msg: '查询用户信息成功', status: 1040, result, url })
       } else {
         res.send({ msg: '查询用户信息失败', status: 1041, result, url })
