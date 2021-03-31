@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "beetle-backend",
   "version": "1.0.0",
-  "description": "校园二手平台后端",
+  "description": "甲壳虫校园二手平台后端",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
