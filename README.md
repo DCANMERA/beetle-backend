@@ -1,6 +1,12 @@
-# server
+# beetle-backend
 
 **必读**
+
+## 后端接口
+
+1. 文件夹名字为 beetle-backend
+2. 可联系 hongwei.ye@outlook.com 查看
+3. 可在项目文件查看接口文档
 
 ## 主要第三方库
 
